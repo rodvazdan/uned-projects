@@ -1,10 +1,6 @@
 # Microblogging System
 
-A basic Twitter-like microblogging system implemented using Java RMI.
-
-## Overview
-
-This project implements a distributed microblogging system, part of "Sistemas Distribuidos" in UNED for the year 2022-2023.
+This project implements a distributed microblogging systemu using Java RMI, part of "Sistemas Distribuidos" in UNED for the year 2022-2023.
 
 There are three main components:
 
