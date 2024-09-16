@@ -1,5 +1,6 @@
 This project involves designing and implementing digital circuits using VHDL for two specific tasks:
 1. Implementation of logic functions F and G based on the following truth table:
+
 | x | y | z | F | G |
 |:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 |
