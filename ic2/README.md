@@ -2,7 +2,7 @@
 
 This project implements various versions of the DAXPY (Double-precision A times X Plus Y) loop, part of the LINPACK benchmark, for the DLXV processor, using the WinDLXV simulator.
 
-The loop implements the vector operation $Y := Y + a \cdot X$ for a vector of length $\frac{R4}{8}$ elements. `R4` contains the length in bytes of the total number of elements, with each element being 8 bytes long (double precision). The scalar assembly loop code for the DLXV processor is as follows:
+The loop implements the vector operation $Y := Y + a \cdot X$ for a vector of length $\frac{R4}{8}$ elements. R4 contains the length in bytes of the total number of elements, with each element being 8 bytes long (double precision). The scalar assembly loop code for the DLXV processor is as follows:
 
 ```
 inicio: LD    F2,0(R1)      ; load X(i)
