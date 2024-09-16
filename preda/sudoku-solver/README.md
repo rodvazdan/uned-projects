@@ -2,6 +2,8 @@
 
 This project implements a Sudoku solver using a backtracking algorithm. The solver reads an initial Sudoku puzzle from an input file or standard input, processes the data, and attempts to find a valid solution.
 
+The folder `examples` contains various input examples of Sudoku puzzles with different difficulty levels.
+
 ## Usage
 
 To run the Sudoku solver, use the following command:
